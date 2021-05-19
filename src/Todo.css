@@ -11,7 +11,7 @@
 	margin:none;
 	padding:none;
 	border:none;
-	font-size:20pt;
+	font-size:3vw;
 	color:#ccc;
 }
 .todo__check[type="checkbox"] {
@@ -32,8 +32,8 @@
 .todo__input {
 	border-radius:none;
 	border:none;
-	font-size:14pt;
-	line-height:20pt;
+	font-size:3vw;
+	line-height:4vw;
 }
 
 .todo__button {
@@ -41,7 +41,7 @@
 	color:#faa;
 	border: none;
 	background: none;
-	font-size:20pt;
+	font-size:4vw;
 	padding-top:0px;
 	padding-bottom:0px;
 	margin-top:0px;

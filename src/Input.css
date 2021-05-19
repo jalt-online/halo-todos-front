@@ -1,7 +1,7 @@
 .input {
 	padding: none;
 	margin: none;
-	padding-bottom:10px;
+	padding-bottom:2vw;
   	border-bottom: 1px solid gray;
 	text-align:right;
 }
@@ -15,15 +15,15 @@
 	background:none;
 	display:inline;
 	position:relative;
-	max-height: 35px;
+	max-height: 7vw;
 }
 .input__chevron {
 	width:0px;
-	font-size: 54pt;
+	font-size: 12vw;
 	position:relative;
 	padding:0px;
 	margin:0px;
-	top:-50px;
+	top:-8.5vw;
 }
 .input__chevron:hover {
 	color:black;
@@ -33,7 +33,7 @@
 	border: 1px solid #ddd;
 	border-bottom:1px solid gray;
 	border-radius: none;
-	font-size: 18pt;
-	line-height:36pt;
+	font-size: 4vw;
+	line-height:8vw;
 	width:85%;
 }

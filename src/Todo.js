@@ -24,7 +24,7 @@ function Todo(props) {
 		<li className="todo">
 			<input className="todo__check" id={"todo-"+props.id} type="checkbox" checked={props.done} onChange={checkBox}/>
 			<label htmlFor={"todo-"+props.id} className="todo__check">
-			&#x2714;
+				&#x2714;
 			</label>
 			<input 
 				className="todo__input"

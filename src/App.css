@@ -14,15 +14,15 @@
 }
 
 .hdr {
-	font-size: 24pt;
+	font-size: 4vw;
 	margin: none;
 	padding: none;
 }
 
 .ftr {
 	margin-top:10%;
-	line-height:36pt;
-	font-size:10pt;
+	line-height:7vw;
+	font-size:2vw;
 	user-select:none;
 }
 
