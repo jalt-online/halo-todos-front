@@ -1,0 +1,53 @@
+.todo {
+	float:left;	
+	width:96%;
+	background:white;
+	border-bottom: 1px solid gray;
+	padding: 2%;
+}
+
+.todo__check {
+	float:left;	
+	margin:none;
+	padding:none;
+	border:none;
+	font-size:20pt;
+	color:#ccc;
+}
+.todo__check[type="checkbox"] {
+	margin:0px;
+	opacity:0;
+	width:0px;
+	z-index:100;
+}
+.todo__check:checked+label {
+	color:black;
+}
+
+.todo__check:hover {
+	color:#444;
+}
+
+
+.todo__input {
+	border-radius:none;
+	border:none;
+	font-size:14pt;
+	line-height:20pt;
+}
+
+.todo__button {
+	float: right;
+	color:#faa;
+	border: none;
+	background: none;
+	font-size:20pt;
+	padding-top:0px;
+	padding-bottom:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+.todo__button:hover {
+	color:#f44;
+}

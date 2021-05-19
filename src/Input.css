@@ -1,0 +1,39 @@
+.input {
+	padding: none;
+	margin: none;
+	padding-bottom:10px;
+  	border-bottom: 1px solid gray;
+	text-align:right;
+}
+.input__form {
+	display:inline;
+}
+.input__button {
+	width:0px;
+	float:left;
+	border: none;
+	background:none;
+	display:inline;
+	position:relative;
+	max-height: 35px;
+}
+.input__chevron {
+	width:0px;
+	font-size: 54pt;
+	position:relative;
+	padding:0px;
+	margin:0px;
+	top:-50px;
+}
+.input__chevron:hover {
+	color:black;
+}
+
+.input__input {
+	border: 1px solid #ddd;
+	border-bottom:1px solid gray;
+	border-radius: none;
+	font-size: 18pt;
+	line-height:36pt;
+	width:85%;
+}
